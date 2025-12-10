@@ -1,8 +1,0 @@
-[0.055s] Invoking command in '/home/zack/Workspace/image_projection/src/build/homography': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zack/Workspace/image_projection/src/homography -DCMAKE_INSTALL_PREFIX=/home/zack/Workspace/image_projection/src/install/homography
-[0.059s] [31mCMake Error at CMakeLists.txt:4:
-[0.059s]   Parse error.  Expected "(", got identifier with text "to".
-[0.059s] 
-[0.059s] [0m
-[0.059s] -- Configuring incomplete, errors occurred!
-[0.059s] See also "/home/zack/Workspace/image_projection/src/build/homography/CMakeFiles/CMakeOutput.log".
-[0.060s] Invoked command in '/home/zack/Workspace/image_projection/src/build/homography' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zack/Workspace/image_projection/src/homography -DCMAKE_INSTALL_PREFIX=/home/zack/Workspace/image_projection/src/install/homography

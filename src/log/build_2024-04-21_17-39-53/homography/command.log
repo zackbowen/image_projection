@@ -1,2 +1,0 @@
-Invoking command in '/home/zack/Workspace/image_projection/src/build/homography': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/homography -- -j24 -l24
-Invoked command in '/home/zack/Workspace/image_projection/src/build/homography' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/homography -- -j24 -l24

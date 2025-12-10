@@ -1,3 +1,4 @@
+#include <filesystem>
 #include <iostream>
 #include <rclcpp/rclcpp.hpp>
 
@@ -12,6 +13,8 @@
 int main()
 {
     std::cout << "Hello World" << std::endl;
+
+    std::cout << std::filesystem::current_path() <<std::endl;
 
     // read in images
     std::vector<cv::Mat> images;

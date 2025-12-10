@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:4:
-  Parse error.  Expected "(", got identifier with text "to".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/zack/Workspace/image_projection/src/build/homography/CMakeFiles/CMakeOutput.log".
