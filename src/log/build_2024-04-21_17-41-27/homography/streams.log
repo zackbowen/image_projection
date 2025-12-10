@@ -1,0 +1,11 @@
+[0.059s] Invoking command in '/home/zack/Workspace/image_projection/src/build/homography': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/homography -- -j24 -l24
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target get_homography[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/get_homography.dir/src/homography.cpp.o[0m
+[0.115s] [01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp: No such file or directory
+[0.115s]     2 | #include [01;31m[K<rclcpp>[m[K
+[0.115s]       |          [01;31m[K^~~~~~~~[m[K
+[0.115s] compilation terminated.
+[0.116s] gmake[2]: *** [CMakeFiles/get_homography.dir/build.make:76: CMakeFiles/get_homography.dir/src/homography.cpp.o] Error 1
+[0.116s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_homography.dir/all] Error 2
+[0.116s] gmake: *** [Makefile:146: all] Error 2
+[0.118s] Invoked command in '/home/zack/Workspace/image_projection/src/build/homography' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/homography -- -j24 -l24

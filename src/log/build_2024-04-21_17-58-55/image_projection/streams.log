@@ -1,0 +1,26 @@
+[0.067s] Invoking command in '/home/zack/Workspace/image_projection/src/build/image_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/image_projection -- -j24 -l24
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target get_homography[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/get_homography.dir/src/homography.cpp.o[0m
+[1.891s] [100%] [32m[1mLinking CXX executable get_homography[0m
+[2.091s] [100%] Built target get_homography
+[2.100s] Invoked command in '/home/zack/Workspace/image_projection/src/build/image_projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/image_projection -- -j24 -l24
+[2.129s] Invoking command in '/home/zack/Workspace/image_projection/src/build/image_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zack/Workspace/image_projection/src/build/image_projection
+[2.136s] -- Install configuration: ""
+[2.136s] -- Installing: /home/zack/Workspace/image_projection/src/install/image_projection/lib/image_projection/get_homography
+[2.137s] -- Set runtime path of "/home/zack/Workspace/image_projection/src/install/image_projection/lib/image_projection/get_homography" to ""
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/ament_index/resource_index/package_run_dependencies/image_projection
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/ament_index/resource_index/parent_prefix_path/image_projection
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/environment/ament_prefix_path.sh
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/environment/ament_prefix_path.dsv
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/environment/path.sh
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/environment/path.dsv
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/local_setup.bash
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/local_setup.sh
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/local_setup.zsh
+[2.137s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/local_setup.dsv
+[2.138s] -- Installing: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/package.dsv
+[2.138s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/ament_index/resource_index/packages/image_projection
+[2.138s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/cmake/image_projectionConfig.cmake
+[2.138s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/cmake/image_projectionConfig-version.cmake
+[2.138s] -- Up-to-date: /home/zack/Workspace/image_projection/src/install/image_projection/share/image_projection/package.xml
+[2.139s] Invoked command in '/home/zack/Workspace/image_projection/src/build/image_projection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zack/Workspace/image_projection/src/build/image_projection

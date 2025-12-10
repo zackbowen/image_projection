@@ -1,0 +1,12 @@
+[01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:9:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    9 | class Homography : public [01;31m[Krclcpp[m[K::Node
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:9:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+    9 | class Homography : public rclcpp::[01;31m[KNode[m[K
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:14:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   14 | [01;31m[Kint[m[K main()
+      | [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/get_homography.dir/build.make:76: CMakeFiles/get_homography.dir/src/homography.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_homography.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

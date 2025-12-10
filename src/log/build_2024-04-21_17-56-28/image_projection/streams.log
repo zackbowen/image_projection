@@ -1,0 +1,21 @@
+[0.070s] Invoking command in '/home/zack/Workspace/image_projection/src/build/image_projection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/image_projection -- -j24 -l24
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target get_homography[0m
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/get_homography.dir/src/homography.cpp.o[0m
+[1.545s] [01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.545s] [01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:19:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimshow(cv::Mat&)[m[K’
+[1.545s]    19 |     [01;31m[Kcv::imshow(im0)[m[K;
+[1.546s]       |     [01;31m[K~~~~~~~~~~^~~~~[m[K
+[1.546s] In file included from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[1.546s]                  from [01m[K/home/zack/Workspace/image_projection/src/homography/src/homography.cpp:4[m[K:
+[1.546s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:416:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::imshow(const String&, cv::InputArray)[m[K’
+[1.546s]   416 | CV_EXPORTS_W void [01;36m[Kimshow[m[K(const String& winname, InputArray mat);
+[1.546s]       |                   [01;36m[K^~~~~~[m[K
+[1.553s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:416:19:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.553s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:651:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::imshow(const String&, const cv::ogl::Texture2D&)[m[K’
+[1.554s]   651 | CV_EXPORTS void [01;36m[Kimshow[m[K(const String& winname, const ogl::Texture2D& tex);
+[1.554s]       |                 [01;36m[K^~~~~~[m[K
+[1.554s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:651:17:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.933s] gmake[2]: *** [CMakeFiles/get_homography.dir/build.make:76: CMakeFiles/get_homography.dir/src/homography.cpp.o] Error 1
+[1.934s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_homography.dir/all] Error 2
+[1.934s] gmake: *** [Makefile:146: all] Error 2
+[1.935s] Invoked command in '/home/zack/Workspace/image_projection/src/build/image_projection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zack/Workspace/image_projection/src/build/image_projection -- -j24 -l24
